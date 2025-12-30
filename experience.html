@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Rithanya Sivakumar</title>
+		<title>Sivakumar Royappan</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -14,7 +14,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Rithanya Sivakumar</a>
+						<a href="index.html" class="logo">Sivakumar Royappan</a>
 					</header>
 
 				<!-- Nav -->
@@ -27,8 +27,8 @@
 							<li><a href="certifications.html">Certifications</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/rithanya-sivakumar-490b15291/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/rithanyars20" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://sg.linkedin.com/in/sivakumar-royappan-26265761"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/sairsksg-sys" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
@@ -40,37 +40,102 @@
 							<header class="major">
 								<h1>Experience</h1>
 							</header>
+							
+						
 
-							<p>CLICK ON A CATEGORY BELOW TO NAVIGATE TO THAT SECTION</p>
-							<!-- Experience Navigation -->
-							<nav>
-								<ul>
-									<li><a href="#spritle-sg">Spritle, Singapore</a></li>
-									<li><a href="#mcmaster">McMaster University Start Coding Camp, Canada</a></li>
-								</ul>
-							</nav>
+							<!-- Timeline -->
+    						<div class="timeline">
+        						<div class="timeline-step">
+            						<div class="icon">1</div>
+            						<div class="label">Satyam</div>
+        						</div>
+        						<div class="timeline-step">
+            						<div class="icon">2</div>
+            						<div class="label">Electronic Data Systems</div>
+        						</div>
+        						<div class="timeline-step">
+            						<div class="icon">3</div>
+            						<div class="label">Ness Global Services</div>
+        						</div>
+        						<div class="timeline-step">
+            						<div class="icon">4</div>
+            						<div class="label">Wipro</div>
+        						</div>
+    						</div>
 
-							<!-- Spritle Experience -->
-							<article id="spritle-sg">
-								<h2 class="major">Spritle</h2>
-								</header>
-								<a href="#" class="image main"><img src="images/spritle.jpeg" alt="" width="20" height="350"/></a>
-								<p><strong>Software Developer & Project Manager</strong></p>
-								<p>Developed and implemented an AI-driven solution using Python for Singapore’s Changi Airport’s Fault Management Center. The solution handles speech-to-text transcription, language identification and translation, categorization, and automatic ticket creation and handling, significantly reducing manual effort and boosting efficiency. As a result, automation led to a 50% reduction in manual staff involvement, greatly enhancing overall productivity.</p>
-								<p>Initially tested with AWS Transcription Tools, the solution was then transitioned to OpenAI's Whisper based on my recommendation, improving transcription accuracy from 70% to 95%. Collaborated closely with clients to gain insights into their specific needs and tailored the solution to effectively meet those requirements.</p>
-								<p>Managed project timelines, deliverables, and documentation, ensuring adherence to deadlines. Coordinated daily task update meetings and served as liaison between the offshore team and onshore client, ensuring clear communication. Utilized Excel and Tableau to track project progress and present data effectively. Demonstrated strong communication skills in aligning stakeholder expectations and facilitating collaboration.</p>
-								
-							</article>
+    						<!-- Timeline CSS -->
+    						<style>
+        						.timeline {
+            						display: flex;
+            						align-items: center;
+            						position: relative;
+            						justify-content: space-between;
+            						margin-top: 50px;
+        						}
 
-							<!-- McMaster Experience -->
-							<article id="mcmaster">
-								<h2 class="major">McMaster University <br> Start Coding Camp</h2>
-								<a href="#" class="image main"><img src="images/mcmastersccamp.png" alt="" width="20" height="350"/></a>
-								<p><strong>Volunteer</strong></p>
-								<p>Designed educational illustrations: Created engaging Elm-based visuals for a children's reading game, incorporating Picasso-style elements to enhance learning. Gained exposure and improved skills in front-end development, Elm programming, problem solving, and creative thinking.</p>
-								<p>Reviewed UI Toolkits thesis: Provided constructive feedback on thesis work under the supervision of Dr. Christopher Anand, improving attention to detail and collaboration skills.</p>
-								
-							</article>
+        						/* Connecting line */
+        						.timeline::before {
+            						content: '';
+            						position: absolute;
+            						top: 50%;
+            						left: 5%;
+            						width: 90%;
+            						height: 4px;
+            						background: #333;
+            						z-index: 1;
+            						transform: translateY(-50%);
+        						}
+
+        						.timeline-step {
+            						position: relative;
+            						z-index: 2;
+            						display: flex;
+            						flex-direction: column;
+            						align-items: center;
+            						text-align: center;
+            						flex: 1;
+        						}
+
+        						.timeline-step .icon {
+            						width: 40px;
+            						height: 40px;
+            						border-radius: 50%;
+            						background: #007bff;
+            						display: flex;
+            						justify-content: center;
+            						align-items: center;
+            						font-size: 18px;
+            						font-weight: bold;
+            						color: #fff;
+            						margin-bottom: 10px;
+        						}
+
+        						.timeline-step .label {
+            						max-width: 120px;
+        						}
+
+        						/* Optional: responsive for smaller screens */
+        						@media (max-width: 768px) {
+            						.timeline {
+                						flex-direction: column;
+            						}
+
+            						.timeline::before {
+                						width: 4px;
+                						height: 80%;
+                						top: 10%;
+                						left: 50%;
+                						transform: translateX(-50%);
+            						}
+
+            						.timeline-step {
+                						margin: 20px 0;
+            						}
+        						}
+    						</style>
+
+
+
 
 						</section>
 
