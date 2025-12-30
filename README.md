@@ -1,2 +1,1 @@
-# SivakumarRoyappanPersonalPortfolio
-Personal portfolio website created using HTML, CSS, and JavaScript.
+This is my portfolio website created using HTML, CSS, and JavaScript.
